@@ -1,13 +1,15 @@
 {
   "name": "vue3-admin",
   "version": "0.1.0",
-  "private": true,
+  "private": "<%=private%>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prepare": "husky install"
   },
+  "autor": "<%=author%>",
+  "description": "<%=description%>",
   "dependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
@@ -47,6 +49,7 @@
     "svg-sprite-loader": "^6.0.11",
     "vue-cli-plugin-element-plus": "~0.0.13"
   },
+  "license": "<%=license%>",
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"

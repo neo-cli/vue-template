@@ -13,11 +13,11 @@
 
 <script setup>
 import { ref, watch } from 'vue'
-import { useStore } from 'vuex'
+// import { useStore } from 'vuex'
 import { useRoute, useRouter } from 'vue-router'
 import { generateTitle } from '@/utils'
-const store = useStore()
-const linkHoverColor = ref(store.getters.cssVar.menuBg)
+// const store = useStore()
+// const linkHoverColor = ref(store.getters.cssVar.menuBg)
 
 const route = useRoute()
 // 生成数组数据
